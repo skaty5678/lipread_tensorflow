@@ -58,3 +58,42 @@ The model is trained using the Adam optimizer and the categorical cross-entropy 
 ## Conclusion
 
 In conclusion, this project demonstrates the feasibility of using deep learning to recognize spoken words from a person's lip movements. The lip reading performance can be improved by using a larger dataset.
+
+
+
+## Lipread App using streamlit
+
+We used Streamlit app that uses the lipread model to predict text from a video of someone speaking. It provides a user interface for selecting a video and displaying the model's output.
+
+
+### Prerequisites
+
+* Python 3.7 or later
+* TensorFlow 2.4 or later
+* Streamlit 0.80 or later
+* FFmpeg
+
+
+### Installation
+
+Clone the repository:
+
+1. clone the repository and cd into the app folder
+
+2. Install the required Python packages:
+
+### *pip install -r requirements.txt*
+
+3. Install FFmpeg:
+
+### *sudo apt install ffmpeg*
+
+
+### Usage
+
+Run the app:
+
+### *streamlit run app.py*
+
+
+The app will open in your browser.
